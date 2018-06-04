@@ -1,0 +1,94 @@
+.works {
+	width: 100%;
+	//sheight: 200vh;
+	background-color: $colorwhite;
+}
+
+.wrapper {
+	position: relative;
+	width: 95%;
+	//height: 100vh;
+	margin: 0 auto;
+}
+
+.works__title {
+	font-size: 58px;
+	font-weight: 800;
+    line-height: 74px;
+    margin-top: 96px;
+    text-transform: uppercase;
+}
+
+.works__text {
+	width: 560px;
+	height: 110px;
+	font-weight: 400;
+	margin: 281px auto 142px;
+}
+
+.works__logo {
+	position: absolute;
+	top: 120px;
+	right: 445px;
+}
+
+.works__examples {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.works_example {
+	width: 50%;
+	position: relative;
+}
+
+.work__example-title {
+	position: absolute;
+	top: 45px;
+	left: 35px;
+	font-size: 25px;
+	line-height: 11px;
+	font-weight: 800;
+	color: $colorwhite;
+}
+
+.works__example-text {
+	position: absolute;
+	top: 87px;
+	left: 35px;
+	width: 310px;
+	height: 45px;
+	color: $colorwhite;
+}
+
+.works__example-link {
+	width: 389px;
+	height: 2px;
+	background-color: $colorwhite;
+	position: absolute;
+	top: 351px;
+    left: 431px;
+}
+
+.works__example-skills {
+	position: absolute;
+	top: 360px;
+	left: 35px;
+	display: flex;
+	justify-content: space-between;
+	width: 270px;
+}
+
+.work__example-skill {
+	border: 1px solid $colorwhite;
+	border-radius: 5px;
+	display: inline-block;
+	height: 24px;
+	font-size: 14px;
+	line-height: 11px;
+	padding: 5px;
+	background-color: $colorwhite;
+
+}
